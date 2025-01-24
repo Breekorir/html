@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML forms</title>
+    </head>
+
+<body>
+      
+
+    <h1>HTML Forms</h1>
+    <p>HTML forms are essential for colecting and processing user input on web page</p>
+    <form action=""method=""   enctype="">
+        <!--
+        Form attribute
+        -action :specifies the URL where the form data will be sent.
+        -method :determines how the form data is sent .common values are GET and POST 
+        -Enctype: Specifies how form data shoud be encoded when it is sent to the server.it is
+        particularly important when uploading files or sending non-textual data.
+        -->
+<label for="fullname">your name</label>
+        <Input type="text" id="fullname" name="fullname">
+
+<br><!--line break (self closing)-->
+
+<label for ="personal email">email</label>
+        <input type ="email"  id="personal-email" name="personal- email">
+<br><!--line break element-->
+        <label for="yob">year of birth</label>
+<input type ="number"  name="yob"  id="yob">
+
+<br><!--line break element (self closing)-->
+
+<label for ="pass">password</label>
+        <input type="password" name="pass" id="pass">
+
+<br><!--line break element(self closing)-->
+
+        <label for="gender"  >gender</label>
+        <input type="radio"name="gender" id="male" value="mume">
+
+        <br><!--line break element(self closing)-->
+
+    
+        <label for ="male">male</label>
+        <input type="radio"name ="gender" id="female" value="kike">
+
+        <br><!--line break (self closing)-->
+
+
+        <label for="female">female</label>
+        <input type="file" name =" profileimage" id="profileimage">
+
+        <br><!--line break element(self closing)-->
+
+        
+        <input type ="submit"value="login">
+        <!--
+       form element attributes
+       -type:provides input validation features on the browser /client side 
+       -name : identifies the form data for the server -side processing .
+       -id:assigns a unique identifier to form elements.
+       for:used to assign a label to an input element(the value should match the inputs id value)
+        -->
+
+
+
+        </form>
+        <a href="https://youtube.com">youtube</a><!--it triggers a http GET request-->
+        <!--HTTP Methods---GET,POST,PUT,PAtch,DELETE-->
+
+</body>
+</html>

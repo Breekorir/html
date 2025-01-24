@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Job Application form</title>
+  </head>
+
+  <body>
+    <h1>Job Application Form</h1>
+    <p>This is a job application form created by Brigid</p>
+    <form action="submit-job-application" method="POST" enctype="">
+      <label for="fullname">Your name</label>
+      <input type="text" id="fullname" name="fullname" />
+
+      <label for=" personal email">Your email</label>
+      <input type="text" id="personal email" name="personal email " />
+
+      <label for="pass">Password</label>
+      <input type="password" name="pass" id="pass" />
+
+      <label for="telephone">Telephone number</label>
+      <input type="tel" name="tel" id="tel" />
+
+      <label for="date">Application date</label>
+      <input type="date" name="todays date" id="date" />
+
+      <label for="job type">select job</label>
+      <select name="job type" id="job type">
+        <option>talking</option>
+        <option>singing</option>
+        <option>playing</option>
+      </select>
+      <label for="applicants availability">Applicants availability</label>
+      <input type="radio" name="applicants availability" id="full-time" />
+
+      <label for="applicants availability">Applicants availability</label>
+      <input type="radio" name="applicants availability" id="part-time" />
+
+      <label for="files">Resume</label>
+      <input type="file" name="upload file" id="resume" />
+
+      <label for="text area">Additional information</label>
+      <input type="text area" name="cover letter" id="text area" />
+
+      <label for="submit">submit</label>
+      <button type="submit">submit</button>
+
+      <label for="reset">reset</label>
+      <button type="reset">reset</button>
+    </form>
+  </body>
+</html>
